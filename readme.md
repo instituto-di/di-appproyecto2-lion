@@ -40,13 +40,13 @@ c.        Número de personas que asistirán. Para jornada y congreso un máximo
 
 d.        Tipo de cocina que se precisará, a elegir entre bufé (vegetariano o no), carta, pedir cita con el chef o no precisa. Componente ComboBox.
 
-3.        Si el evento es un congreso se debe preguntar el número de jornadas del congreso (Text Field) y si se requerirán habitaciones para los asistentes al evento (Nº de habitaciones. Componente Text Field). Esto puedes hacerlo deshabilitando (setDisabled) los controles si no ha lugar.
+3. Si el evento es un congreso se debe preguntar el número de jornadas del congreso (Text Field) y si se requerirán habitaciones para los asistentes al evento (Nº de habitaciones. Componente Text Field). Esto puedes hacerlo deshabilitando (setDisabled) los controles si no ha lugar.
 
-4.        Tanto para el nº de personas como para el nº de jornadas y nº de habitaciones se debe controlar que sólo se introduzcan datos de tipo entero. Se debe informar al usuario mediante mensaje de aplicación del tipo de datos a introducir Sólo en el caso de que el valor introducido no sea de tipo entero.
+4. Tanto para el nº de personas como para el nº de jornadas y nº de habitaciones se debe controlar que sólo se introduzcan datos de tipo entero. Se debe informar al usuario mediante mensaje de aplicación del tipo de datos a introducir Sólo en el caso de que el valor introducido no sea de tipo entero.
 
-5.        En el caso del nº de personas que asistirán se debe informar al usuario mediante mensaje de aplicación en el caso de que el valor introducido no esté incluido en los intervalos definidos según el tipo de evento (jornada, congreso, evento).
+5. En el caso del nº de personas que asistirán se debe informar al usuario mediante mensaje de aplicación en el caso de que el valor introducido no esté incluido en los intervalos definidos según el tipo de evento (jornada, congreso, evento).
 
-6.        En el componente definido para introducir el nº de teléfono se debe controlar que el tipo de datos introducidos sean de tipo carácter y que sólo se admitan los caracteres comprendidos del 0 al 9.Se debe informar al usuario en el caso de que no se cumpla el requisito.
+6. En el componente definido para introducir el nº de teléfono se debe controlar que el tipo de datos introducidos sean de tipo carácter y que sólo se admitan los caracteres comprendidos del 0 al 9.Se debe informar al usuario en el caso de que no se cumpla el requisito.
 
 Por tanto, la tarea consistirá en generar una aplicación que cuente con un diálogo nuevo en el que crearás la interfaz con las restricciones que se indican más arriba. Además de añadir los componentes que necesites para darle funcionalidad deberás cumplir con los siguientes **requisitos no funcionales** :
 
