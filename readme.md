@@ -32,13 +32,13 @@ Esta interfaz que permita gestionar la reserva de uno de los salones, llamado &q
 
 2. En los datos de la reserva hay que cumplimentar:
 
-a.        Fecha del evento.
+   a. Fecha del evento.
 
-b.        Tipo, se puede escoger entre banquete, jornada o congreso. El componente será RadioButton (sólo puede ser de un tipo).Cuando se selecciona como tipo de evento banquete o jornada los componentes para número de días y habitaciones deben estar desactivados, sin embargo si es congreso se deben activar.
+   b. Tipo, se puede escoger entre banquete, jornada o congreso. El componente será RadioButton (sólo puede ser de un tipo).Cuando se selecciona como tipo de evento banquete o jornada los componentes para número de días y habitaciones deben estar desactivados, sin embargo si es congreso se deben activar.
 
-c.        Número de personas que asistirán. Para jornada y congreso un máximo de 50 personas. Para banquete, un máximo de 100 personas. Componente un TextField.
+   c. Número de personas que asistirán. Para jornada y congreso un máximo de 50 personas. Para banquete, un máximo de 100 personas. Componente un TextField.
 
-d.        Tipo de cocina que se precisará, a elegir entre bufé (vegetariano o no), carta, pedir cita con el chef o no precisa. Componente ComboBox.
+   d. Tipo de cocina que se precisará, a elegir entre bufé (vegetariano o no), carta, pedir cita con el chef o no precisa. Componente ComboBox.
 
 3. Si el evento es un congreso se debe preguntar el número de jornadas del congreso (Text Field) y si se requerirán habitaciones para los asistentes al evento (Nº de habitaciones. Componente Text Field). Esto puedes hacerlo deshabilitando (setDisabled) los controles si no ha lugar.
 
@@ -69,4 +69,4 @@ Por tanto, la tarea consistirá en generar una aplicación que cuente con un di�
 
  ![Reserva Salon Habana Congreso](ReservaSalon_Congreso.jpg)
 
-Sugerencia: La **BD** la formarían las tablas: Cliente, Provincia, Reservas\_Hab y Reservas\_Salon. En estas dos últimas tablas solo sería necesario incluir el DNI del cliente en relación a los datos del cliente, además de los datos necesarios de cada reserva.
+**Sugerencia**: La **BD** la formarían las tablas: Cliente, Provincia, Reservas\_Hab y Reservas\_Salon. En estas dos últimas tablas solo sería necesario incluir el DNI del cliente en relación a los datos del cliente, además de los datos necesarios de cada reserva.
